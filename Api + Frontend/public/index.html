@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Item Management</title>
+</head>
+
+<body>
+    <div class="container">
+        <button id="sortAlphabetical">Sort Alphabetically</button>
+        <button id="sortReverseAlphabetical">Sort Reverse Alphabetically</button>
+
+        <button id="favoriteButton">Favorite</button>
+
+
+        <input type="text" id="searchInput" placeholder="Search by name">
+        <button id="searchButton">Search</button>
+
+        <h1>Artist Management</h1>
+
+        <form id="addItemForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="date" id="birthdate" required>
+            <input type="date" id="activeSince" required>
+            <input type="text" id="genres" placeholder="Genres" required>
+            <input type="text" id="labels" placeholder="Labels" required>
+            <input type="url" id="website" placeholder="Website URL" required>
+            <input type="url" id="image" placeholder="Image URL" required>
+            <textarea id="shortDescription" placeholder="Short Description" rows="4" required></textarea>
+            <button type="submit">Add User</button>
+        </form>
+        <div id="userDetails" style="display: none;">
+            <h2>User Details</h2>
+            <p>Name: <span id="userDetailName"></span></p>
+            <p>Birthdate: <span id="userDetailBirthdate"></span></p>
+            <p>Active Since: <span id="userDetailActiveSince"></span></p>
+            <p>Genres: <span id="userDetailGenres"></span></p>
+            <p>Labels: <span id="userDetailLabels"></span></p>
+            <p>Website: <span id="userDetailWebsite"></span></p>
+            <p>Image: <img id="userDetailImage" src="" alt="User Image"></p>
+            <p>Short Description: <span id="userDetailShortDescription"></span></p>
+
+            <button id="editUserButton">Edit User</button>
+            <button id="deleteUserButton">Delete User</button>
+            <button id="addFavoriteButton">Favorite User</button>
+        </div>
+
+        <h2>Artists:</h2>
+        <ul id="userList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
