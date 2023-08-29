@@ -103,6 +103,8 @@ function displayUser(user) {
 
 // editUser har en masse keys som er de værdier man kan ændre, dvs. man ik kan ændre favorite på den måde eller id
 function editUser(user) {
+    console.log(user);
+
     const keys = ['name', 'birthdate', 'activeSince', 'genres', 'labels', 'website', 'image', 'shortDescription'];
     const updatedUser = {};
 
@@ -111,7 +113,10 @@ function editUser(user) {
         const newValue = prompt(`Enter the new ${key}:`, user[key]);
         updatedUser[key] = newValue || user[key];
     }
+    updatedUser["favorite"] = user.favorite;
+    updatedUser["id"] = user.id;
 
+    console.log(updatedUser);
     updateUserData(updatedUser);
 }
 

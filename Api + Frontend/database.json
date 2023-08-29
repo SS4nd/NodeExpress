@@ -1,7 +1,6 @@
 {
   "djfnu42s0p1m": {
-    "name": "Adele",
-    "favorite": true,
+    "name": "Adele..",
     "birthdate": "1988-05-05",
     "activeSince": "2006-01-14",
     "genres": "Pop",
@@ -9,11 +8,12 @@
     "website": "https://www.adele.com",
     "image": "https://example.com/adele.jpg",
     "shortDescription": "Soulful pop vocalist known for powerful ballads.",
+    "favorite": false,
     "id": "djfnu42s0p1m"
   },
   "fh89s1xjcl20": {
     "name": "Kendrick Lamar",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1987-06-17",
     "activeSince": "2003-09-10",
     "genres": "Hip-Hop",
@@ -25,7 +25,7 @@
   },
   "8s7k23nmc5p0": {
     "name": "Beyoncé",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1981-09-04",
     "activeSince": "1997-02-09",
     "genres": "R&B, Pop",
@@ -37,7 +37,7 @@
   },
   "bht6r92jxndp": {
     "name": "Ed Sheeran",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1991-02-17",
     "activeSince": "2004-04-14",
     "genres": "Pop, Folk",
@@ -49,7 +49,7 @@
   },
   "lmx9a0o1spf4": {
     "name": "Rihanna",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1988-02-20",
     "activeSince": "2003-08-05",
     "genres": "Pop, R&B",
@@ -73,7 +73,7 @@
   },
   "k7p4m23vnd5s": {
     "name": "Taylor Swift",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1989-12-13",
     "activeSince": "2004-08-10",
     "genres": "Pop, Country",
@@ -85,7 +85,7 @@
   },
   "hjd8s2m1fn3p": {
     "name": "Drake",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1986-10-24",
     "activeSince": "2001-08-08",
     "genres": "Hip-Hop, R&B",
@@ -97,7 +97,7 @@
   },
   "p0a9n3v4mc8x": {
     "name": "Billie Eilish",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "2001-12-18",
     "activeSince": "2015-08-11",
     "genres": "Pop, Electropop",
@@ -109,7 +109,7 @@
   },
   "kl3xj1m7fp4n": {
     "name": "The Weeknd",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1990-02-16",
     "activeSince": "2010-12-21",
     "genres": "R&B, Pop",
@@ -121,7 +121,7 @@
   },
   "nvc5p2j1m8hs": {
     "name": "Kanye West",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1977-06-08",
     "activeSince": "1996-10-23",
     "genres": "Hip-Hop, Rap",
@@ -133,7 +133,7 @@
   },
   "m4ph7d9kz6jo": {
     "name": "Lady Gaga",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1986-03-28",
     "activeSince": "2005-08-01",
     "genres": "Pop, Dance",
@@ -145,7 +145,7 @@
   },
   "p2m8n4x1jcs5": {
     "name": "Eminem",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1972-10-17",
     "activeSince": "1988-07-12",
     "genres": "Hip-Hop, Rap",
@@ -157,7 +157,7 @@
   },
   "hs0x1m4kcn3p": {
     "name": "Ariana Grande",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1993-06-26",
     "activeSince": "2008-08-14",
     "genres": "Pop, R&B",
@@ -169,7 +169,7 @@
   },
   "z9x8c2j3mn0p": {
     "name": "Coldplay",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1996-09-02",
     "activeSince": "1998-07-16",
     "genres": "Alternative, Pop",
@@ -181,7 +181,7 @@
   },
   "v7d3f1m9kx2j": {
     "name": "BTS",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1993-09-01",
     "activeSince": "2013-06-13",
     "genres": "K-Pop, Pop",
@@ -193,7 +193,7 @@
   },
   "l0p9v4z6x1jc": {
     "name": "Jay-Z",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1969-12-04",
     "activeSince": "1995-12-01",
     "genres": "Hip-Hop, Rap",
@@ -205,7 +205,7 @@
   },
   "n3b0v6x1j2mc": {
     "name": "Justin Bieber",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1994-03-01",
     "activeSince": "2007-07-07",
     "genres": "Pop, R&B",
@@ -217,7 +217,7 @@
   },
   "s1d2f3m4kx5vj": {
     "name": "Sia",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1975-12-18",
     "activeSince": "1993-08-23",
     "genres": "Pop, Electropop",
@@ -229,7 +229,7 @@
   },
   "k9x8j7m6vp3n": {
     "name": "Elton John",
-    "favorite": true,
+    "favorite": false,
     "birthdate": "1947-03-25",
     "activeSince": "1964-04-14",
     "genres": "Pop, Rock",
