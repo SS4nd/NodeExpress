@@ -1,7 +1,7 @@
 # Node.js og Express
 
 Skole Opgave
-![alt text](https://prnt.sc/8BvIutkVnSkw)
+![alt text](https://cdn.discordapp.com/attachments/919345485725188096/1145998724242354186/image.png)
 
 ## Installation and Running
 
