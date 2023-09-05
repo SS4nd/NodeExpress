@@ -48,7 +48,7 @@ Favorite user: Sets the favorite tag on the artist/user to true, when you filter
 
 ### Create new user
 
-POST http://localhost:3000/items
+POST http://localhost:3000/artists
 json={
     'name': 'Silas',
     'birthdate': '2003-02-05',
@@ -63,15 +63,15 @@ json={
 
 ### Get all users
 
-GET http://localhost:3000/items
+GET http://localhost:3000/artists
 
 ### Get user by id
 
-GET http://localhost:3000/items/id
+GET http://localhost:3000/artists/id
 
 ### Update user
 
-PUT http://localhost:3000/items/id
+PUT http://localhost:3000/artists/id
 json={
     'name': 'Silas',
     'birthdate': '2003-01-01',
@@ -86,6 +86,6 @@ json={
 
 ### Delete user
 
-DELETE http://localhost:3000/items/id
+DELETE http://localhost:3000/artists/id
 
 

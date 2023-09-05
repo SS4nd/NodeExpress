@@ -49,7 +49,7 @@ function getItemById(id) {
 }
 
 // POST call til at lave ny kunstner
-app.post('/items', async(req, res) => {
+app.post('/artists', async(req, res) => {
     // tjekker om alle værdier giver mening og om de findes
     const { body } = req;
 
@@ -69,7 +69,7 @@ app.post('/items', async(req, res) => {
 });
 
 // PUT call til at ændre en kunstner ud fra id
-app.put('/items/:id', async(req, res) => {
+app.put('/artists/:id', async(req, res) => {
     const id = req.params.id;
 
     try {
@@ -99,12 +99,12 @@ function validateFields(item) {
 }
 
 // GET call til at hente alle brugere
-app.get('/items', (req, res) => {
+app.get('/artists', (req, res) => {
     res.json(Object.values(items));
 });
 
 // GET call til at hente bruger ud fra id
-app.get('/items/:id', (req, res) => {
+app.get('/artists/:id', (req, res) => {
     const id = req.params.id;
 
     try {
@@ -116,7 +116,7 @@ app.get('/items/:id', (req, res) => {
 });
 
 // DELETE call til at delete ud fra id
-app.delete('/items/:id', async(req, res) => {
+app.delete('/artists/:id', async(req, res) => {
     const id = req.params.id;
 
     try {

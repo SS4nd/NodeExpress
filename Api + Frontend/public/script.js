@@ -54,7 +54,7 @@ async function handleAddUser(event) {
     };
     // Her prøver den at sende et POST med kunstneren og hvis den kan opdatere den displayUser og ellers sender den en error
     try {
-        const response = await fetch('/items', {
+        const response = await fetch('/artists', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -76,7 +76,7 @@ async function handleAddUser(event) {
 // fetchUsers henter alle brugere for at vise dem på listen
 async function fetchUsers() {
     try {
-        const response = await fetch('/items');
+        const response = await fetch('/artists');
         if (response.ok) {
             usersData = await response.json();
             displayUsers(usersData);
@@ -123,7 +123,7 @@ function editUser(user) {
 // updateUserData er til når man redigere en user og skal lave et PUT call til api, den bruger kunstnerens id for at ændre
 async function updateUserData(updatedUser) {
     try {
-        const response = await fetch(`/items/${updatedUser.id}`, {
+        const response = await fetch(`/artists/${updatedUser.id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -146,7 +146,7 @@ function deleteUser(user) {
 
 async function deleteUserFromServer(userId) {
     try {
-        const response = await fetch(`/items/${userId}`, {
+        const response = await fetch(`/artists/${userId}`, {
             method: 'DELETE'
         });
 
